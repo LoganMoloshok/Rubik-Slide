@@ -28,7 +28,6 @@ public class CamControl : MonoBehaviour {
 
 		yRot = ClampAngle(yRot, -80f, 80f);
 
-		// honestly no idea whats going on here, but it works
 		Quaternion newRot = Quaternion.Euler(yRot, xRot, 0);
 		Vector3 negDist = new Vector3(0.0f, 0.0f, -distance);
 		Vector3 newPos = newRot * negDist + target.position;
