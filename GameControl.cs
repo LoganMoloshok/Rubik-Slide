@@ -1,8 +1,3 @@
-﻿/*
-*	Todo:
-*	move win check to after manual move, rather than every frame
-*/
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
